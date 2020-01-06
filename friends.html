@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="status-bar">
@@ -37,11 +38,11 @@
       </div>
     </header>
 
-    <main class="firends">
+    <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/profile.jpg" class="g-avatar" />
+            <img src="images/profile.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Nicolas Serrano
@@ -53,11 +54,11 @@
           </div>
         </div>
       </header>
-      <div class="friend__plus">
+      <div class="friens__plus">
         <h5 class="friends__title">Plus friend</h5>
-        <div class="friends__friend friend friend">
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/profile.jpg" class="g-avatar" />
+            <img src="images/profile.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -68,9 +69,9 @@
       </div>
       <ul class="friends__list">
         <h5 class="friends_title">Friends 14</h5>
-        <li class="friends__friend friend friend">
+        <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/profile.jpg" class="g-avatar" />
+            <img src="images/profile.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Friend2
@@ -80,27 +81,28 @@
               </span>
             </div>
           </div>
-
           <div class="friend__column">
             <div class="friend__now-listning">
-              <span>FTISLAND </span>
-              <i class="fas fa-play"></i>
+              <span>
+                FTISLAND
+                <i class="fas fa-play"></i>
+              </span>
             </div>
           </div>
         </li>
       </ul>
     </main>
-
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
-            <i class="fas fa-user"></i>
+            <i class="far fa-user"></i>
           </a>
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
-            <i class="far fa-comment"></i>
+            <div class="nav__badge">8</div>
+            <i class="fas fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">
