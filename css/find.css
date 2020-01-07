@@ -1,0 +1,29 @@
+.find__header .find__header-list,
+.find__header .header-btn__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.find__header .header-btn__icon {
+  display: block;
+  padding: 10px;
+}
+
+.find__header {
+  border-bottom: 1px solid #f7f7f7;
+  padding: 30px 0px;
+  margin: 10px 0px;
+}
+
+.find_recommended .find__title {
+  font-size: 12px;
+  opacity: 0.5;
+  padding-bottom: 15px;
+}
+
+.find_recommended i {
+  background-color: grey;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
