@@ -53,6 +53,12 @@
   border-radius: 15px;
   font-size: 14px;
 }
+.friend__now-eating {
+  border: 2px solid #ffc83d;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
 
 .friend__now-listning span {
   opacity: 0.7;
@@ -69,4 +75,8 @@
   align-items: center;
   background-color: #f5f5f5;
   border-radius: 5px;
+}
+
+.friends__list .friends__friend {
+  margin: 30px 0px;
 }
